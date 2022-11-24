@@ -1,0 +1,351 @@
+@media screen and (max-width: 500px) {
+
+  .iamges {
+    width: 300vw;
+    height: 70vh;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .BusinessType .platform .img {
+    height: 30% !important;
+  }
+
+  .BusinessType .platform span {
+    font-size: 20px !important;
+  }
+
+  .BusinessType .carbusiness .img {
+    height: 30% !important;
+
+  }
+
+  .BusinessType .carbusiness span {
+    font-size: 20px !important;
+  }
+
+  .BusinessType .Vehicle .img {
+    height: 30% !important;
+
+  }
+
+  .BusinessType .Vehicle span {
+    font-size: 20px !important;
+  }
+
+  .securitybottom {
+    height: 100% !important;
+  }
+
+  .securitybottom div {
+    font-size: 20px !important;
+
+  }
+
+  .partner .partnerList .partnerListItem:last-child {
+    margin-left: 20px !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .iamges {
+    width: 100vw;
+    height: 50vh;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.business {
+  text-align: center;
+  margin-top: 90px;
+  height: 650px;
+
+  span {
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #808080;
+    font-size: 17px;
+  }
+}
+
+.BusinessType {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  height: 65%;
+  margin-left: 20%;
+  margin-top: 2%;
+
+  .platform {
+    border-bottom: 3px solid #F60606;
+    border-radius: 2px;
+    width: 30%;
+    height: 100%;
+    // text-align: center;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    flex-direction: column;
+
+    .img {
+      width: 50%;
+      height: 50%;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    span {
+      text-indent: 2em;
+      margin-top: 15px;
+      font-family: Microsoft YaHei;
+      font-weight: bold;
+      color: #666666;
+      font-size: 16px;
+      text-align: left;
+    }
+  }
+
+  .carbusiness {
+    border-bottom: 3px solid #C9C9C9;
+    border-radius: 2px;
+    width: 30%;
+    height: 100%;
+    // text-align: center;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    flex-direction: column;
+
+    .img {
+      width: 50%;
+      height: 50%;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    span {
+      text-indent: 2em;
+
+      margin-top: 15px;
+      font-family: Microsoft YaHei;
+      font-weight: bold;
+      color: #666666;
+      font-size: 16px;
+      text-align: left;
+    }
+  }
+
+  .Vehicle {
+    border-bottom: 3px solid #C9C9C9;
+    border-radius: 2px;
+    width: 30%;
+    height: 100%;
+    // text-align: center;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    flex-direction: column;
+
+    .img {
+      width: 50%;
+      height: 50%;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    span {
+      text-indent: 2em;
+
+      margin-top: 15px;
+      font-family: Microsoft YaHei;
+      font-weight: bold;
+      color: #666666;
+      font-size: 16px;
+      text-align: left;
+    }
+  }
+}
+
+// 优势
+.advantage {
+  text-align: center;
+  margin-top: 32px;
+  height: 650px;
+  background-color: #F8FAFC;
+
+  h1 {
+    padding-top: 84px;
+  }
+
+  span {
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #808080;
+    font-size: 17px;
+  }
+
+  .advantageBusinessType {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 65%;
+    margin-left: 20%;
+
+    .security {
+      width: 30%;
+      height: 50%;
+    }
+
+    .Efficient {
+      width: 30%;
+      height: 50%;
+      background-color: blue;
+
+    }
+
+    .lead {
+      width: 30%;
+      background-color: pink;
+
+      height: 50%;
+    }
+  }
+}
+
+.securitytop {
+  width: 100%;
+  height: 50%;
+  background: url('../../../static/iamges/img_bg_01.png');
+  position: relative;
+
+  span {
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+  }
+}
+
+.securitytop2 {
+  width: 100%;
+  height: 50%;
+  background: url('../../../static/iamges/img_bg_02.png');
+  position: relative;
+
+  span {
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+  }
+}
+
+.securitytop3 {
+  width: 100%;
+  height: 50%;
+  background: url('../../../static/iamges/img_bg_03.png');
+  position: relative;
+
+  span {
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+  }
+}
+
+.securitybottom {
+  text-indent: 2em;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+
+  div {
+    width: 80%;
+    color: #666666;
+    font-size: 15px;
+    text-align: left;
+    background: #fff;
+  }
+}
+
+.partner {
+  text-align: center;
+  margin-top: 32px;
+  height: 650px;
+  background-color: #fff;
+
+  span {
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #808080;
+    font-size: 17px;
+  }
+
+  .partnerList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 65%;
+    margin-left: 27.5%;
+    width: 45%;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    .partnerListItem {
+      width: 25%;
+      height: 20%;
+      border: 1px solid #F4F6F6;
+      margin-bottom: 15px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .partnerListItem:last-child {
+      margin-right: auto;
+      margin-left: 35px;
+    }
+  }
+}
